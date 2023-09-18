@@ -4,7 +4,7 @@ using CRM.Core.Dto;
 
 namespace CRM.Web.Controllers
 {
-    [Area("api/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
     {
