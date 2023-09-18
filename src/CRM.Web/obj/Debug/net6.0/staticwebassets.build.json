@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "I9vQKM/m27002FKzyGaDJu3sqEdGp+PuNByXndgvP8Q=",
+  "Source": "CRM.Web",
+  "BasePath": "_content/CRM.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

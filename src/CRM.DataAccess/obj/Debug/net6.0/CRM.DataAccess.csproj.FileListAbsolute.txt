@@ -1,0 +1,15 @@
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\obj\Debug\net6.0\CRM.DataAccess.csproj.AssemblyReference.cache
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\obj\Debug\net6.0\CRM.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\obj\Debug\net6.0\CRM.DataAccess.AssemblyInfoInputs.cache
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\obj\Debug\net6.0\CRM.DataAccess.AssemblyInfo.cs
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\obj\Debug\net6.0\CRM.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\bin\Debug\net6.0\CRM.DataAccess.deps.json
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\bin\Debug\net6.0\CRM.DataAccess.dll
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\bin\Debug\net6.0\CRM.DataAccess.pdb
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\bin\Debug\net6.0\CRM.Core.dll
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\bin\Debug\net6.0\CRM.Core.pdb
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\obj\Debug\net6.0\CRM.DataAccess.csproj.CopyComplete
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\obj\Debug\net6.0\CRM.DataAccess.dll
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\obj\Debug\net6.0\refint\CRM.DataAccess.dll
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\obj\Debug\net6.0\CRM.DataAccess.pdb
+C:\Users\User\Documents\respo\Project2023-CRM\API\src\CRM.DataAccess\obj\Debug\net6.0\ref\CRM.DataAccess.dll
