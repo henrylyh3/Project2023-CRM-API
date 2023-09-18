@@ -28,6 +28,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\User\\Documents\\respo\\Project2023-CRM\\API\\src\\CRM.Core\\CRM.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\respo\\Project2023-CRM\\API\\src\\CRM.Core\\CRM.Core.csproj"
+              },
               "C:\\Users\\User\\Documents\\respo\\Project2023-CRM\\API\\src\\CRM.DataAccess\\CRM.DataAccess.csproj": {
                 "projectPath": "C:\\Users\\User\\Documents\\respo\\Project2023-CRM\\API\\src\\CRM.DataAccess\\CRM.DataAccess.csproj"
               }
@@ -43,6 +46,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -97,6 +114,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -155,6 +178,32 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -203,9 +252,6 @@
               },
               "C:\\Users\\User\\Documents\\respo\\Project2023-CRM\\API\\src\\CRM.Core\\CRM.Core.csproj": {
                 "projectPath": "C:\\Users\\User\\Documents\\respo\\Project2023-CRM\\API\\src\\CRM.Core\\CRM.Core.csproj"
-              },
-              "C:\\Users\\User\\Documents\\respo\\Project2023-CRM\\API\\src\\CRM.DataAccess\\CRM.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\respo\\Project2023-CRM\\API\\src\\CRM.DataAccess\\CRM.DataAccess.csproj"
               }
             }
           }
@@ -220,6 +266,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

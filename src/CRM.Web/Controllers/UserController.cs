@@ -1,43 +1,33 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using CRM.Application.Services.Interfaces;
+using CRM.Application.Services;
 using CRM.Core.Dto;
 
 namespace CRM.Web.Controllers
 {
-    [Route("api/[controller]")]
+    [Area("api/[controller]")]
     [ApiController]
-    //todo: important! restrict each action by roles (organizer, exhibitor, visitor)
     public class UserController : ControllerBase
     {
-        private readonly IWebHostEnvironment _env;
+        private readonly UserService _userService;
 
-        private readonly IConfiguration _configuration;
-        private readonly IUserService _userService;
 
-        public UserController(
-            IWebHostEnvironment env,
-            IConfiguration configuration,
-            IUserService userService
-            )
+        public UserController(IConfiguration configuration)
         {
-            _env = env;
-            _configuration = configuration;
-            _userService = userService;
-            
+            _userService = new UserService(configuration);
         }
 
         [Route("users")]
         [HttpGet]
-        public async Task<IEnumerable<UserDto>> GetUsers()
+        public async Task<List<UserDto>> GetUsers()
         {
             return await _userService.GetUsers();
         }
 
-        [Route("user")]
+        [Route("user/{id}")]
         [HttpGet]
-        public async Task<UserDto> GetUser()
+        public async Task<UserDto> GetUserById(string id)
         {
-            return await _userService.GetUser();
+            return await _userService.GetUserById(id);
         }
         
         [Route("user")]
@@ -49,7 +39,7 @@ namespace CRM.Web.Controllers
 
         }
 
-        [Route("users/{id]")]
+        [Route("users/{id}")]
         [HttpDelete]
         public async Task<ActionResult> DeleteUser(string id)
         {
@@ -62,7 +52,7 @@ namespace CRM.Web.Controllers
         [HttpPut]
         public async Task<ActionResult> UpdateUser(UserDto input)
         {
-            var users = await _userService.GetUsers();
+            await _userService.UpdateUser(input);
 
             return new OkResult();
         }
