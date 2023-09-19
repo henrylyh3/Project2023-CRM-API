@@ -39,7 +39,7 @@ namespace CRM.Web.Controllers
 
         }
 
-        [Route("users/{id}")]
+        [Route("user/{id}")]
         [HttpDelete]
         public async Task<ActionResult> DeleteUser(string id)
         {
