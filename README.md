@@ -32,6 +32,13 @@ The future enhancement for this project will be
 - limit access
 
 
+<!-- Info-->
+
+Dependency Injection: Constructor injection
+Design Pattern: 
+CRUD? Yes
+
+
 <!-- CONTACT -->
 Lee Yoong Hean - henrylyh96@gmail.com
 Project Link: https://github.com/henrylyh3/Project2023-CRM-API.git
