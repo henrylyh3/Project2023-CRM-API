@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/.vs/CRM/DesignTimeBuild/.dtbcache.v2
+/src/.vs/CRM/FileContentIndex/18b028b3-0909-426f-8588-28a313ecc777.vsidx
+*.v2
+/src/.vs/CRM/v17/.suo
+*.json
+/.gitignore
